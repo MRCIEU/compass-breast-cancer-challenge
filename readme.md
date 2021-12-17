@@ -38,7 +38,7 @@ http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/BRCA/20160128
 See `files.txt` in this directory.
 
 Data files will be downloaded to the `FILES_DIR` directory
-(see `variables.txt`). 
+(see [variables.txt](variables.txt)). 
 
 ```
 bash download-data.sh files.txt
