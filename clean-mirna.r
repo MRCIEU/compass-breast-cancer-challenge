@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-args = commandArgs(trailingOnly=TRUE)
+args <- commandArgs(trailingOnly=TRUE)
 
 mirna.filenames <- c(args[1], args[2])
 output.filename <- args[3]

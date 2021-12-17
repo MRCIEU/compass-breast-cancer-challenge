@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-args = commandArgs(trailingOnly=TRUE)
+args <- commandArgs(trailingOnly=TRUE)
 
 clinical.filename <- args[1]
 pan.cancer.filename <- args[2]

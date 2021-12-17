@@ -1,5 +1,5 @@
-PROJECT_DIR=/projects/MRC-IEU/research/projects/ieu2/p5/098
-DATA_DIR=$PROJECT_DIR/working/data
+PROJECT_DIR=...fill this in...
+DATA_DIR=$PROJECT_DIR/data
 FILE_DIR=$DATA_DIR/tcga-files
 FULL_DIR=$DATA_DIR/full-dataset
 TRAINING_DIR=$DATA_DIR/training-dataset

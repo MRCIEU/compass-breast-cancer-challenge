@@ -15,6 +15,9 @@ names(filenames) <- c(
 training.dir <- args[length(args)-1]
 testing.dir <- args[length(args)]
 
+dir.create(training.dir, recursive=T)
+dir.create(testing.dir, recursive=T)
+
 cat("split-data.r", paste(args,collapse=" "), "\n")
 
 source("extract-participant.r")

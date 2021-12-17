@@ -1,9 +1,6 @@
 #!/usr/bin/env Rscript
 
-args = commandArgs(trailingOnly=TRUE)
-
-args <- c("../data/training-dataset",
-          "../data/testing-dataset")
+args <- commandArgs(trailingOnly=TRUE)
 
 training.dir <- args[1]
 testing.dir <- args[2]

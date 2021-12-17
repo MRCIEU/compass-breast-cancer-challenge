@@ -1,10 +1,11 @@
 #!/usr/bin/env Rscript
 
-args = commandArgs(trailingOnly=TRUE)
+args <- commandArgs(trailingOnly=TRUE)
 
 filename <- args[1]
 output.dir <- args[2]
 
+dir.create(output.dir, recursive=T)
 
 url <- "http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/BRCA/20160128"
 files <- read.table(filename, sep=" ", header=T, stringsAsFactors=F)

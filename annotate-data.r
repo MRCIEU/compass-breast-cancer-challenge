@@ -1,10 +1,8 @@
 #!/usr/bin/env Rscript
 
-args = commandArgs(trailingOnly=TRUE)
+args <- commandArgs(trailingOnly=TRUE)
 
 data.dir <- args[1]
-
-data.dir <- "/projects/MRC-IEU/research/projects/ieu2/p5/098/working/data/training-dataset"; stop(data.dir)
 
 cat("annotate-data.r", paste(args,collapse=" "), "\n")
 
