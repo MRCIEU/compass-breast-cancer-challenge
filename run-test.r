@@ -14,7 +14,8 @@ source("my-read-table.r")
 ## training
 
 ## list all files in the training dataset
-filenames <- list.files(training.dir, full.names=T)
+filenames <- list.files(training.dir, pattern="txt$", full.names=T)
+filenames <- filenames[!grepl("(annotation|targets)",filenames)]
 
 ## for this example we'll omit CNV
 filenames <- filenames[!grepl("cnv", filenames)]
