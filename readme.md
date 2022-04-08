@@ -1,6 +1,6 @@
 # COMPASS challenge: using multi-omic data to predict breast cancer outcome
 
-[Background and instructions presentation](slides.pdf)
+Background and instructions presentation: [pdf](slides.pdf) [pptx](slides.pptx)
 
 ## Data preprocessing information 
 
